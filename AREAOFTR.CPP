@@ -1,18 +1,19 @@
 #include<iostream.h>
 #include<conio.h>
-int areaoftra(int x,int y,int z);
+int aot(void);
 void main()
 {
 clrscr();
-areaoftra(10,20,30);
-areaoftra(20,30,40);
+aot();
+aot();
+
 
 getch();
 }
-int areaoftra(int x,int y,int z)
+int aot(void)
 {
-	int z1;
-	z1=(x+y)*z/2;
-	cout<<"\n"<<z1;
-	return z1;
+	int x=10,y=20,z;
+	z=y*x/2;
+	cout<<"\n"<<z;
+	return z;
 }
