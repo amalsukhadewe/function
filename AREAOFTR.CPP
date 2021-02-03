@@ -12,8 +12,8 @@ getch();
 }
 int aot(void)
 {
-	int x=10,y=20,z;
-	z=y*x/2;
-	cout<<"\n"<<z;
-	return z;
+	int x=10,y=20,z=30,z1;
+	z1=(x+y)*z/2;
+	cout<<"\n"<<z1;
+	return z1;
 }
