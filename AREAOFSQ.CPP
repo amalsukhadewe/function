@@ -1,17 +1,18 @@
 #include<iostream.h>
 #include<conio.h>
-int areaofsquare(int x);
+int aos(void);
 void main()
 {
 clrscr();
-areaofsquare(10);
-areaofsquare(20);
+aos();
+aos();
+
 
 getch();
 }
-int areaofsquare(int x)
+int aos(void)
 {
-	int z;
+	int x=10,z;
 	z=x*x;
 	cout<<"\n"<<z;
 	return z;
