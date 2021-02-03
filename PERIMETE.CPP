@@ -1,19 +1,19 @@
 #include<iostream.h>
 #include<conio.h>
-int pos(void);
+int pop(void);
 void main()
 {
 clrscr();
-pos();
-pos();
+pop();
+pop();
 
 
 getch();
 }
-int pos(void)
+int pop(void)
 {
-	int x=10,z;
-	z=4*x;
-	cout<<"\n"<<z;
-	return z;
+	int x=10,y=20,z1;
+	z1=2*(x+y);
+	cout<<"\n"<<z1;
+	return z1;
 }
