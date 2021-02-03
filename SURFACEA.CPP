@@ -1,18 +1,19 @@
 #include<iostream.h>
 #include<conio.h>
-int saosphere(int x,int y);
+int sac(void);
 void main()
 {
 clrscr();
-saosphere(10,20);
-saosphere(20,30);
+sac();
+sac();
+
 
 getch();
 }
-int saosphere(int x,int y)
+int sac(void)
 {
-	int z1;
-	z1=4*x*y*y;
+	int x=10,z1;
+	z1=6*x*x;
 	cout<<"\n"<<z1;
 	return z1;
 }
