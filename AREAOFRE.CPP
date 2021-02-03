@@ -1,17 +1,18 @@
 #include<iostream.h>
 #include<conio.h>
-int areaofrectangle(int x,int y);
+int aor(void);
 void main()
 {
 clrscr();
-areaofrectangle(10,20);
-areaofrectangle(20,30);
+aor();
+aor();
+
 
 getch();
 }
-int areaofrectangle(int x,int y)
+int aor(void)
 {
-	int z;
+	int x=10,y=20,z;
 	z=x*y;
 	cout<<"\n"<<z;
 	return z;
