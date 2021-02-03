@@ -1,19 +1,19 @@
 #include<iostream.h>
 #include<conio.h>
-int sac(void);
+int sas(void);
 void main()
 {
 clrscr();
-sac();
-sac();
+sas();
+sas();
 
 
 getch();
 }
-int sac(void)
+int sas(void)
 {
-	int x=10,y=20,z=30,z1;
-	z1=x*y*z;
+	int x=10,y=20,z1;
+	z1=4*x*y*y;
 	cout<<"\n"<<z1;
 	return z1;
 }
