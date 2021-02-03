@@ -1,18 +1,18 @@
 #include<iostream.h>
 #include<conio.h>
-int perimeterofsquare(int x);
+int pop(int x,int y);
 void main()
 {
 clrscr();
-perimeterofsquare(10);
-perimeterofsquare(20);
+pop(10,20);
+pop(20,30);
 
 getch();
 }
-int perimeterofsqaure(int x)
+int pop(int x,int y)
 {
-	int y;
-	y=4*x;
-	cout<<"\n"<<y;
-	return y;
+	int z1;
+	z1=2*(x+y);
+	cout<<"\n"<<z1;
+	return z1;
 }
