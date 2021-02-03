@@ -12,8 +12,8 @@ getch();
 }
 int sac(void)
 {
-	int x=10,z1;
-	z1=6*x*x;
+	int x=10,y=20,z=30,z1;
+	z1=2*x*y*z;
 	cout<<"\n"<<z1;
 	return z1;
 }
