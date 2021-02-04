@@ -9,8 +9,8 @@ public:
 void add()
 {
 	int a=100,b=20;
-	c=a-b;
-	cout<<"the addition is " <<c;
+	c=a/b;
+	cout<<"the division is " <<c;
 }
 };
 
