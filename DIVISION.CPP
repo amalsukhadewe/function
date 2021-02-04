@@ -1,18 +1,24 @@
 #include<iostream.h>
 #include<conio.h>
-int div(int x,int y);
+
+class sub
+{
+public:
+	int a,b,c;
+
+void add()
+{
+	int a=100,b=20;
+	c=a-b;
+	cout<<"the addition is " <<c;
+}
+};
+
 void main()
 {
-clrscr();
-div(100,20);
-div(200,12);
+	clrscr();
+	sub z;
+	z.add();
 
-getch();
-}
-int div(int x,int y)
-{
-	int z;
-	z=x/y;
-	cout<<"\n"<<z;
-	return z;
+	getch();
 }
