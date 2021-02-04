@@ -1,17 +1,19 @@
 #include<iostream.h>
 #include<conio.h>
-int mul(int x, int y);
+
+class multiplication
+{
+
+ int add(int a,int b){
+  return a+b;
+ }
+}
 void main()
 {
-clrscr();
-mul(100,20);
-mul(110,22);
-getch();
-}
-int mul(int x ,int y)
-{
-	int z;
-	z=x*y;
-	cout<<"\n"<<z;
-	return z;
+	int y;
+	clrscr();
+	multiplication m;
+	 y = m.add(5,9);
+	 cout<<y;
+	getch();
 }
