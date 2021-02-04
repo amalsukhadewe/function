@@ -1,19 +1,24 @@
 #include<iostream.h>
 #include<conio.h>
-int aot(void);
+
+class areaoftriangle
+{
+public:
+	int a,b,c;
+
+void aot()
+{
+	int a=100,b=20;
+	c=(a*b)/2;
+	cout<<"the area of triangle is " <<c;
+}
+};
+
 void main()
 {
-clrscr();
-aot();
-aot();
+	clrscr();
+	areaoftriangle z;
+	z.aot();
 
-
-getch();
-}
-int aot(void)
-{
-	int x=10,y=20,z=30,z1;
-	z1=(x+y)*z/2;
-	cout<<"\n"<<z1;
-	return z1;
+	getch();
 }
