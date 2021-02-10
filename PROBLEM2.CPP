@@ -4,11 +4,11 @@ void main()
 {
 	int r,c;
 	clrscr();
-	for(r=1;r<=4;r++)
+	for(r=1;r<=3;r++)
 	{
-		for(c=1;c<=4;c++)
+		for(c=1;c<=5;c++)
 		{
-			cout<<r;
+			cout<<c;
 		}
 		cout<<endl;
 	}
