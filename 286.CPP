@@ -1,0 +1,18 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	int r,c;
+	clrscr();
+	for(r=4;r>=1;r--)
+	{
+		for(c=1;c<=r;c++)
+		{
+		cout<<'*';
+		}
+
+
+	cout<<endl;
+	}
+getch();
+}
